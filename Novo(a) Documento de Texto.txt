@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Alves | Desenvolvedor Web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0ea5e9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Felipe Alves</h1>
+    <p>Programador Júnior | HTML • Python • Java | WordPress</p>
+    <a href="#contato" class="btn">Entrar em Contato</a>
+</header>
+
+<section>
+    <h2>Sobre Mim</h2>
+    <p>
+        Desenvolvedor Web com foco em soluções digitais organizadas e eficientes.
+        Experiência prática com HTML, Python, Java (POO) e WordPress.
+        Buscando oportunidade como Desenvolvedor Júnior, preferencialmente em modelo remoto.
+    </p>
+</section>
+
+<section>
+    <h2>Stack Técnica</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Frontend</h3>
+            <p>HTML</p>
+        </div>
+        <div class="card">
+            <h3>Backend / Lógica</h3>
+            <p>Python</p>
+            <p>Java</p>
+        </div>
+        <div class="card">
+            <h3>CMS</h3>
+            <p>WordPress</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Projetos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Site Institucional</h3>
+            <p>Desenvolvimento de site responsivo para pequeno negócio.</p>
+        </div>
+        <div class="card">
+            <h3>Landing Page</h3>
+            <p>Página focada em conversão e organização visual.</p>
+        </div>
+        <div class="card">
+            <h3>Projeto em Python</h3>
+            <p>Aplicação simples utilizando lógica de programação.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Email: felipealvesfl77@gmail.com</p>
+    <p>Curitiba – PR | Disponível para Home Office</p>
+</section>
+
+<footer>
+    <p>© 2026 Felipe Alves - Desenvolvedor Web</p>
+</footer>
+
+</body>
+</html>
